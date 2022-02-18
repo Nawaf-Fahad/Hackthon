@@ -1,3 +1,8 @@
+btnClick= function () {
+    this.router.navigateByUrl('/index.html');
+};
+
+
 var currentTab = 0;
 document.addEventListener("DOMContentLoaded", function(event) {
 
