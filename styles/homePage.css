@@ -1,0 +1,23 @@
+body{
+
+position: relative;
+width: 1280px;
+height: 720px;
+
+background: #FFFFFF;
+mix-blend-mode: multiply;
+}
+.Rectangle1 {
+
+position: absolute;
+width: 180px;
+height: 720px;
+left: 0px;
+top: 0px;
+background: url('/imgs/background.png');
+
+mix-blend-mode:multiply;
+
+
+}
+
