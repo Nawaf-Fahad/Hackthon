@@ -1,117 +1,118 @@
 <html>
 
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styles/index.css">
+<script src="index.js"></script>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/index.css">
-    <script src="index.js"></script>
-    
+<body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="imgs/home.png" alt=""></i></i></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="">Our services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About us</a>
-          </li>
-         
-          
-        </ul>
-    
-      </div>
-    </div>
-
-    
-  </nav>
-
-
-  <div class="container mt-5">
+<div class="container mt-5">
     <div class="row d-flex justify-content-center align-items-center">
         <div class="col-md-8">
             <form id="regForm">
                 <h1 id="register">Survey Form</h1>
-                <div class="all-steps" id="all-steps"> <span class="step"><i class="fa fa-user"></i></span> <span class="step"><i class="fa fa-map-marker"></i></span> <span class="step"><i class="fa fa-shopping-bag"></i></span> <span class="step"><i class="fa fa-car"></i></span> <span class="step"><i class="fa fa-spotify"></i></span> <span class="step"><i class="fa fa-mobile-phone"></i></span> </div>
+                <div class="all-steps" id="all-steps">
+                    <span class="step"><i class="fa fa-user"></i></span>
+                    <span class="step"><i class="fa fa-map-marker"></i></span>
+                    <span class="step"><i class="fa fa-shopping-bag"></i></span>
+                    <span class="step"><i class="fa fa-car"></i></span>
+                    <span class="step"><i class="fa fa-spotify"></i></span>
+                    <span class="step"><i class="fa fa-mobile-phone"></i></span>
+                </div>
                 <div class="tab">
                     <h6>What's your bussiness name?</h6>
-                    <p> <input placeholder="Name..." oninput="this.className = ''" name="fname"></p>
+                    <p><input placeholder="Name..." oninput="this.className = ''" name="fname"></p>
 
-                    <h6>is it small bussiness</h6>
+                    <h6>Is it small bussiness</h6>
+                    <div class="yesNo">
+                        <input type="radio" id="yes" name="small" value="yes">
+                        <label for="small">Yes</label><br>
+                        <input type="radio" id="yes" name="small" value="yes">
+                        <label for="small">No</label><br>
+                    </div>
+
+                </div>
+                <div class="tab">
+                    <h6>Do you provide shipping services</h6>
                     <input type="radio" id="yes" name="small" value="yes">
                     <label for="small">yes</label><br>
                     <input type="radio" id="yes" name="small" value="yes">
-                    <label for="small">no</label><br>  
+                    <label for="small">no</label><br>
                 </div>
                 <div class="tab">
-                    <h6>do you provide shipping services</h6>
-                    <input type="radio" id="yes" name="small" value="yes">
-                    <label for="small">yes</label><br>
-                    <input type="radio" id="yes" name="small" value="yes">
-                    <label for="small">no</label><br>  
-                </div>
-                <div class="tab">
-                    <h6>is it local or interntional</h6>
+                    <h6>Is it local or interntional</h6>
                     <input type="radio" id="yes" name="small" value="yes">
                     <label for="small">local</label><br>
                     <input type="radio" id="yes" name="small" value="yes">
-                    <label for="small">interntional</label><br>  
-                    
+                    <label for="small">interntional</label><br>
+
                 </div>
                 <div class="tab">
-                    <h6>is it trending now?</h6>
+                    <h6>Is it trending now?</h6>
                     <input type="radio" id="yes" name="small" value="yes">
                     <label for="small">yes</label><br>
                     <input type="radio" id="yes" name="small" value="yes">
-                    <label for="small">no</label><br>  
+                    <label for="small">no</label><br>
                 </div>
                 <div class="tab">
-                    <h6>what dose your business provide ?</h6>
+                    <h6>What dose your business provide ?</h6>
 
                     <input type="radio" id="yes" name="small" value="yes">
                     <label for="small">clothes</label><br>
                     <input type="radio" id="yes" name="small" value="yes">
-                    <label for="small">furniture</label><br> 
+                    <label for="small">furniture</label><br>
                     <input type="radio" id="yes" name="small" value="yes">
-                    <label for="small">Electrical devices</label><br> 
+                    <label for="small">Electrical devices</label><br>
                 </div>
                 <div class="tab">
-                  <h6>Price range</h6>
-                  <input type="radio" id="yes" name="small" value="yes">
-                  <label for="small">Under 100 SAR</label><br>
-                  <input type="radio" id="yes" name="small" value="yes">
-                  <label for="small"> 100-500 SAR</label><br>
-                  <input type="radio" id="yes" name="small" value="yes">
-                  <label for="small"> 500-1200 SAR</label><br>
-                  <input type="radio" id="yes" name="small" value="yes">
-                  <label for="small"> 1200-3000 SAR</label><br>
-                  <input type="radio" id="yes" name="small" value="yes">
-                  <label for="small"> Above 3000 SAR</label><br>
-                
-                  
+                    <h6>Price range:</h6>
+                    <input type="radio" id="yes" name="small" value="yes">
+                    <label for="small">Under 100 SAR</label><br>
+                    <input type="radio" id="yes" name="small" value="yes">
+                    <label for="small"> 100-500 SAR</label><br>
+                    <input type="radio" id="yes" name="small" value="yes">
+                    <label for="small"> 500-1200 SAR</label><br>
+                    <input type="radio" id="yes" name="small" value="yes">
+                    <label for="small"> 1200-3000 SAR</label><br>
+                    <input type="radio" id="yes" name="small" value="yes">
+                    <label for="small"> Above 3000 SAR</label><br>
+
+
                 </div>
                 <div class="thanks-message text-center" id="text-message">
-                    <h3>Thank you</h3> <span>Thanks for your valuable information</span>
+                    <h3 class="thankMsg">Thank you</h3> <span class="thankMsgCont">for your valuable information</span>
+                    <img class="confirm" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eo_circle_green_checkmark.svg/512px-Eo_circle_green_checkmark.svg.png?20200417132424">
                     <form action="result.html" method="get">
-                      <button type="submit" id="con">Confirm inputs</button>
+                        <button type="submit" class="Confirmation">Confirm</button>
                     </form>
 
-                      <form action="index.html" method="get">
-                        <button type="submit" id='con'>Reinput</button>
-                      </form>
+                    <form action="" method="get">
+                        <button type="submit" class="Back">Back</button>
+                    </form>
                 </div>
                 <div style="overflow:auto;" id="nextprevious">
-                    <div style="float:right;"> <button type="button" id="prevBtn" onclick="nextPrev(-1)"><i class="fa fa-angle-double-left"></i></button> <button type="button" id="nextBtn" onclick="nextPrev(1)"><i class="fa fa-angle-double-right"></i></button></div>
+                    <div style="float:right;">
+                        <button type="button" class="prevBtn" id="prev" onclick="nextPrev(-1)">
+                            Back
+                        </button>
+
+                        <button type="button" class="nextBtn" id="next" onclick="nextPrev(1)">
+                            Next
+                        </button>
+
+                    </div>
                 </div>
             </form>
         </div>
     </div>
 </div>
 
-  </html>
+</body>
+
+
+</html>
