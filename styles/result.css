@@ -1,0 +1,303 @@
+html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+/* body */
+body{
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-color: #A85151;
+}
+.first{
+    /* 1 */
+
+    position: absolute;
+    left: 82px;
+    right: 1803px;
+    top: 51px;
+    bottom: 784px;
+
+    font-family: DIN Next LT Arabic;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 94px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+
+    border: 1px;
+}
+.first1{
+    /* Online Advertisment */
+
+    position: absolute;
+    left: 150px;
+    right: 1463px;
+    top: 102px;
+    bottom: 774px;
+
+    font-family: DIN Next LT Arabic;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+}
+.first2{
+    /* Ranges of targted ages: */
+
+    position: absolute;
+    width: 355px;
+    height: 53px;
+    left: 69px;
+    top: 252px;
+
+    font-family: DIN Next LT Arabic;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+}
+.firstImg1{
+    /* Head/Front/Short-1 */
+
+    position: absolute;
+    left: 36.93%;
+    right: 60.47%;
+    top: 23.25%;
+    bottom: 67.7%;
+    width: 50px;
+    height: 84.1px;
+}
+.firstImg1Txt{
+    /* 18 yr */
+
+    position: absolute;
+    left: 681px;
+    right: 1161px;
+    top: 292px;
+    bottom: 584px;
+
+    font-family: DIN Next LT Arabic;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+}
+.firstImg2{
+    /* Head/Front/Short-Beard */
+
+    position: absolute;
+    left: 67.4%;
+    right: 30%;
+    top: 23.68%;
+    bottom: 68.25%;
+    width: 50px;
+    height: 74.98px;
+}
+.firstImg2Txt{
+    /* 27 yr */
+
+    position: absolute;
+    left: 1279px;
+    right: 563px;
+    top: 292px;
+    bottom: 584px;
+
+    font-family: DIN Next LT Arabic;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+}
+.second{
+    /* 2 */
+
+    position: absolute;
+    left: 82px;
+    right: 1803px;
+    top: 464px;
+    bottom: 371px;
+
+    font-family: DIN Next LT Arabic;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 94px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+}
+.second1{
+    /* Street Advertisment */
+
+    position: absolute;
+    left: 150px;
+    right: 1466px;
+    top: 541px;
+    bottom: 335px;
+
+    font-family: DIN Next LT Arabic;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;
+    /* identical to box height */
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+}
+.second2{
+    /* Group 13 */
+
+    position: absolute;
+    width: 265px;
+    height: 53px;
+    left: 69px;
+    top: 707px;
+
+
+
+    /* Targted Distrects: */
+
+    position: absolute;
+    width: 265px;
+    height: 53px;
+    left: calc(50% - 265px/2 - 758.5px);
+    top: calc(50% - 53px/2 + 269px);
+
+    font-family: DIN Next LT Arabic;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;
+    /* identical to box height */
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+}
+.secondImg1{
+    /* khozama 1 */
+
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    left: calc(50% - 280px/2 - 226px);
+    top: calc(50% - 280px/2 + 269.5px);
+}
+.secondImg2{
+    /* Screenshot 2022-02-19 171145 1 */
+
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    left: calc(50% - 280px/2 + 194px);
+    top: calc(50% - 280px/2 + 233.5px);
+}
+.secondImg3{
+    /* Screenshot 2022-02-19 171536 1 */
+
+    position: absolute;
+    width: 408px;
+    height: 250px;
+    left: calc(50% - 408px/2 + 564px);
+    top: calc(50% - 250px/2 + 233.5px);
+}
+.secondImg1Txt{
+    /* AL KHUZAMA */
+
+    position: absolute;
+    width: 204px;
+    height: 53px;
+    left: calc(50% - 204px/2 - 226px);
+    top: calc(50% - 53px/2 + 409px);
+
+    font-family: DIN Next LT Arabic;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;
+    /* identical to box height */
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+}
+.secondImg2Txt{
+    /* AS SAHAFAH */
+
+    position: absolute;
+    width: 199px;
+    height: 53px;
+    left: calc(50% - 199px/2 + 191.5px);
+    top: calc(50% - 53px/2 + 409px);
+
+    font-family: DIN Next LT Arabic;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;
+    /* identical to box height */
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+
+
+}
+.secondImg3Txt{
+    /* ALYASMIN */
+
+    position: absolute;
+    width: 154px;
+    height: 53px;
+    left: calc(50% - 154px/2 + 584px);
+    top: calc(50% - 53px/2 + 400px);
+
+    font-family: DIN Next LT Arabic;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;
+    /* identical to box height */
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+
+
+}
+
+
+/*-------------- Fonts -------------*/
+@font-face {
+    font-family: "Carattere";
+    src: url("../fonts/Carattere-Regular.ttf");
+}
+@font-face {
+    font-family: "Cardo";
+    src: url("../fonts/Cardo-Regular.ttf");
+}
