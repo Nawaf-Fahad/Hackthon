@@ -13,22 +13,10 @@ body{
 }
 .container{
     margin: 160px auto 0;
-    padding:10px;
-    padding-bottom:140px;
+    padding: 10px 10px 140px;
 }
 .distance{
-    margin: 0 0.001px;
-
-}
-.logo{
-    /* Rectangle 2 */
-
-    position: absolute;
-    width: 110px;
-    height: 135px;
-    left: calc(50% - 110px/2);
-    top: 53px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 0 0;
 
 }
 .slogan{
@@ -37,12 +25,12 @@ body{
     position: absolute;
     width: 181px;
     height: 73px;
-    left: calc(50% - 181px/2 + 8.5px);
+    left: calc(50% - 181px/2 + 9px);
     top: 162px;
 
-    font-family: Carattere;
+    font-family: Carattere, serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bolder;
     font-size: 57px;
     line-height: 66px;
     letter-spacing: -0.3px;
@@ -50,7 +38,7 @@ body{
     color: #2C2C2C;
 
     mix-blend-mode: hard-light;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 .what{
@@ -62,7 +50,7 @@ body{
     left: calc(50% - 212px/2);
     top: 343px;
 
-    font-family: Cardo;
+    font-family: DIN Next LT Arabic, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -72,7 +60,7 @@ body{
 
     color: #000000;
 
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 .description{
@@ -84,7 +72,7 @@ body{
     left: calc(50% - 820px/2);
     top: 400px;
 
-    font-family: Cardo;
+    font-family: DIN Next LT Arabic, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 23px;
@@ -94,52 +82,34 @@ body{
 
     color: #2C2C2C;
 
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 .st{
     /* Group 1 */
-
-    position: absolute;
-    width: 301px;
     height: 52px;
-    left: 809px;
-    top: 574px;
-
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
-
     /* Rectangle 3 */
-
-    position: absolute;
-    width: 301px;
-    left: calc(50% - 301px/2 - 0.5px);
-    top: 574px;
-    bottom: 303px;
-
     background: #FFFFFF;
     border-radius: 10px;
-
-
     /* Start Survey */
-
     position: absolute;
-    width: 268.58px;
-    left: calc(50% - 268.58px/2 - 0.5px);
-    top: 583.6px;
-    bottom: 312.6px;
+    width: 269px;
+    left: calc(50% - 269px/2 + 0px);
+    top: 570px;
+    bottom: 326px;
 
-    font-family: Cardo;
+    font-family: DIN Next LT Arabic, serif;
     font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 30px;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 40px;
     text-align: center;
     letter-spacing: -0.3px;
 
     color: #000000;
 
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 
 }
 @font-face {
@@ -152,12 +122,12 @@ body{
 }
 .st1{
     position: absolute;
-    width: 268.58px;
-    left: calc(50% - 268.58px/2 - 0.5px);
-    top: 583.6px;
-    bottom: 312.6px;
+    width: 269px;
+    left: calc(50% - 269px/2 - 1px);
+    top: 584px;
+    bottom: 313px;
 
-    font-family: Cardo;
+    font-family: DIN Next LT Arabic, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
@@ -167,5 +137,5 @@ body{
 
     color: #000000;
 
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }

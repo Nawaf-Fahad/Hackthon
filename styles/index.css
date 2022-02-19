@@ -1,28 +1,47 @@
-body {
-    background: #eee
+html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
 }
-
-#regForm {
-    background-color: #ffffff;
-    margin: 0px auto;
-    font-family: Raleway;
-    padding: 40px;
-    border-radius: 10px
+/* body */
+body{
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-color: #EEEEEE;
 }
+h6{
+    font-family: DIN Next LT Arabic, serif;
+    text-shadow: #2C2C2C;
+    font-size: 24px;
+}
+#regForm{
+    padding: 92px;
+    margin: 0 auto;
 
+    position: absolute;
+    width: 1850px;
+    height: 829px;
+    left: calc(50% - 1850px/2);
+    top: calc(50% - 829px/2);
+
+    background: #ffffff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
 #register {
-    color: #6A1B9A
-}
-
-h1 {
-    text-align: center
+    color: #6A1B9A;
+    font-family: DIN Next LT Arabic, serif;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: #2C2C2C;
 }
 
 input:not(#yes)  {
     padding: 10px;
     width: 100%;
     font-size: 17px;
-    font-family: Raleway;
+    font-family: Raleway, serif;
     border: 1px solid #aaaaaa;
     border-radius: 10px;
     -webkit-appearance: none
@@ -38,18 +57,24 @@ input.invalid {
 }
 
 .tab {
-    display: none
-}
+    display: none;
+    position: absolute;
+    width: 611px;
+    height: 276px;
+    left: 410px;
+    top: 345px;
 
+}
+.yesNo{
+    font-family: DIN Next LT Arabic, serif;
+}
 button {
-    background-color: #6A1B9A;
-    color: #ffffff;
     border: none;
     border-radius: 50%;
-    padding: 10px 20px;
+    /*padding: 10px 20px;
     font-size: 17px;
-    font-family: Raleway;
-    cursor: pointer
+    font-family: Raleway, serif;
+    cursor: pointer*/
     
 }
 
@@ -59,10 +84,6 @@ button:hover {
 
 button:focus {
     outline: none !important
-}
-
-#prevBtn {
-    background-color: #bbbbbb
 }
 
 .all-steps {
@@ -75,8 +96,8 @@ button:focus {
 }
 
 .step {
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 20px;
     margin: 0 2px;
     background-color: #bbbbbb;
     border: none;
@@ -90,12 +111,12 @@ button:focus {
 }
 
 .step.active {
-    opacity: 1
+    opacity: 1;
+    background-color: #6a1b9a;
 }
 
 .step.finish {
-    color: #fff;
-    background: #6a1b9a;
+    color: #bbbbbb;
     opacity: 1
 }
 
@@ -107,4 +128,146 @@ button:focus {
 
 .thanks-message {
     display: none
+}
+.nextBtn{
+    /* Rectangle 7 */
+
+    position: absolute;
+    width: 129px;
+    height: 53px;
+    left: 1710px;
+    top: 784px;
+
+    background: #6A1B9A;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 0;
+
+    font-family: DIN Next LT Arabic, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+}
+.prevBtn{
+    background-color: #FFFFFF;
+    border: 0 #BBBBBB;
+
+    /* Back */
+
+    position: absolute;
+    left: 1584px;
+    right: 261px;
+    top: 774px;
+    bottom: 90px;
+
+    font-family: DIN Next LT Arabic, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    padding: 0;
+
+    color: #BBBBBB;
+
+}
+.thankMsg{
+    position: absolute;
+    width: 631px;
+    height: 99px;
+    left: calc(50% - 631px/2);
+    top: 92px;
+
+    font-family: DIN Next LT Arabic, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 94px;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #6A1B9A;
+
+    border: 1px;
+}
+.thankMsgCont{
+    position: absolute;
+    width: 888px;
+    height: 66px;
+    left: calc(50% - 888px/2 + 23px);
+    top: 208px;
+
+    font-family: DIN Next LT Arabic, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #6A1B9A;
+}
+.confirm{
+    position: absolute;
+    width: 147px;
+    height: 143px;
+    left: calc(50% - 147px/2 + 23px);
+    top: 357px;
+}
+.Confirmation{
+    /* Group 10 */
+    /* Confirm */
+    position: absolute;
+    width: 154px;
+    height: 62px;
+
+    font-family: DIN Next LT Arabic, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    padding: 0;
+    color: #FFFFFF;
+
+    /* Rectangle 7 */
+    left: 954px;
+    right: 786px;
+    top: 700px;
+    bottom: 176px;
+
+    background: #6A1B9A;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 120px;
+
+}
+.Back{
+    background-color: #FFFFFF;
+    border: 0 #BBBBBB;
+
+    /* Back */
+    position: absolute;
+    width: 144px;
+    height: 62px;
+    left: 790px;
+    top: 700px;
+    bottom: 176px;
+
+    font-family: DIN Next LT Arabic, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    padding: 0;
+
+    color: #BBBBBB;
 }
